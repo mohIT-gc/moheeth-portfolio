@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moheeth Gali Chittibabu | Software Engineer Portfolio</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Use Inter font -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        /* Custom scrollbar style for dark theme */
+        body::-webkit-scrollbar {
+            width: 8px;
+        }
+        body::-webkit-scrollbar-thumb {
+            background-color: #4a5568; /* Gray-600 */
+            border-radius: 4px;
+        }
+        body::-webkit-scrollbar-track {
+            background-color: #1a202c; /* Gray-900 */
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100 antialiased">
+
+    <!-- Navbar -->
+    <header class="sticky top-0 z-50 bg-gray-900/90 backdrop-blur-sm shadow-xl border-b border-gray-800">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+            <div class="flex justify-between items-center">
+                <a href="#hero" class="text-2xl font-bold text-teal-400 hover:text-teal-300 transition duration-300">Moheeth G. C.</a>
+                <div class="space-x-4 hidden md:flex">
+                    <a href="#about" class="text-gray-300 hover:text-teal-400 px-3 py-2 rounded-lg transition duration-300">About & Skills</a>
+                    <a href="#experience" class="text-gray-300 hover:text-teal-400 px-3 py-2 rounded-lg transition duration-300">Experience</a>
+                    <a href="#projects" class="text-gray-300 hover:text-teal-400 px-3 py-2 rounded-lg transition duration-300">Projects</a>
+                    <a href="#contact" class="text-gray-300 hover:text-teal-400 px-3 py-2 rounded-lg transition duration-300">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="min-h-screen flex items-center justify-center pt-24 pb-12 px-4 sm:px-6 lg:px-8">
+            <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+                <div class="order-2 md:order-1">
+                    <span class="text-teal-400 text-lg font-semibold uppercase tracking-wider">Hello, I'm</span>
+                    <h1 class="text-6xl sm:text-7xl lg:text-8xl font-extrabold mt-2 leading-tight">Moheeth Gali Chittibabu</h1>
+                    <h2 class="text-2xl sm:text-3xl font-light text-gray-400 mt-4">
+                        Software Engineer | AI Engineering Enthusiast
+                    </h2>
+                    <p class="mt-6 text-lg text-gray-300 max-w-lg">
+                        Highly accomplished full-stack developer transitioning to focus on complex AI Engineering. Proven leader in TDD and Agile, building scalable, cloud-native applications using AWS/Azure.
+                    </p>
+                    <div class="mt-8 flex space-x-4">
+                        <a href="#projects" class="px-6 py-3 bg-teal-600 text-white font-medium rounded-xl hover:bg-teal-500 transition duration-300 shadow-lg shadow-teal-500/30 transform hover:scale-[1.02]">
+                            View Projects
+                        </a>
+                        <a href="mailto:moheethgali147@gmail.com" class="px-6 py-3 border border-gray-600 text-gray-300 font-medium rounded-xl hover:bg-gray-800 transition duration-300">
+                            Get In Touch
+                        </a>
+                    </div>
+                </div>
+
+                <div class="order-1 md:order-2 flex justify-center">
+                    <!-- Placeholder Image/Avatar -->
+                    <div class="w-64 h-64 sm:w-80 sm:h-80 bg-gray-800 rounded-full flex items-center justify-center border-4 border-teal-500 shadow-2xl shadow-teal-500/40">
+                        <span class="text-6xl font-extrabold text-teal-500">MGC</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About & Skills Section -->
+        <section id="about" class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-800 border-t border-gray-700">
+            <div class="max-w-7xl mx-auto">
+                <h3 class="text-3xl font-bold text-center text-teal-400 mb-10">Technical Mastery</h3>
+                <p class="text-center text-gray-300 text-lg mb-12 max-w-3xl mx-auto">
+                    A comprehensive overview of the technologies and practices driving my four years of experience in scalable systems architecture and cloud engineering.
+                </p>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Programming & Development -->
+                    <div class="bg-gray-900 p-6 rounded-2xl shadow-xl border border-gray-700 hover:border-teal-500 transition duration-300">
+                        <div class="text-2xl font-semibold text-teal-400 mb-3">Programming & Frameworks</div>
+                        <ul class="space-y-2 text-gray-300 list-disc list-inside">
+                            <li>C, JAVA, C#, Python</li>
+                            <li>Angular, Typescript, JS, HTML, CSS</li>
+                            <li>.NET, MVC, RESTful API, FastAPI</li>
+                            <li>Full-Stack Development Expertise</li>
+                        </ul>
+                    </div>
+                    <!-- Cloud & DevOps -->
+                    <div class="bg-gray-900 p-6 rounded-2xl shadow-xl border border-gray-700 hover:border-teal-500 transition duration-300">
+                        <div class="text-2xl font-semibold text-teal-400 mb-3">Cloud & DevOps</div>
+                        <ul class="space-y-2 text-gray-300 list-disc list-inside">
+                            <li>AWS, Azure Cloud Services, Azure OpenAI</li>
+                            <li>Azure DevOps, GIT, CI/CD Pipelines</li>
+                            <li>Docker (Containerization)</li>
+                            <li>Amazon SQS, RabbitMQ (Messaging)</li>
+                        </ul>
+                    </div>
+                    <!-- Data & Methodologies -->
+                    <div class="bg-gray-900 p-6 rounded-2xl shadow-xl border border-gray-700 hover:border-teal-500 transition duration-300">
+                        <div class="text-2xl font-semibold text-teal-400 mb-3">Data & Methodologies</div>
+                        <ul class="space-y-2 text-gray-300 list-disc list-inside">
+                            <li>SQL Server, PostgreSQL, MongoDB</li>
+                            <li>Test-Driven Development (TDD)</li>
+                            <li>Agile, Scrum, OOP</li>
+                            <li>Microservices Architecture</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="py-20 px-4 sm:px-6 lg:px-8">
+            <div class="max-w-7xl mx-auto">
+                <h3 class="text-3xl font-bold text-center text-teal-400 mb-10">Professional Experience</h3>
+                
+                <!-- Siemens Card -->
+                <div class="max-w-4xl mx-auto bg-gray-800 p-8 rounded-2xl shadow-2xl mb-8 border border-gray-700">
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <h4 class="text-2xl font-bold text-white">Software Engineer</h4>
+                            <p class="text-xl text-teal-400">Siemens, Chennai, India</p>
+                        </div>
+                        <span class="text-gray-400 font-medium">June 2022 - Jan 2025</span>
+                    </div>
+                    <ul class="list-disc list-inside space-y-3 text-gray-300 marker:text-teal-500">
+                        <li>Engineered a bulk-processing RESTful API, enhancing system performance by 82% and driving 25% revenue growth.</li>
+                        <li>Architected backend microservice using Angular, C#, .NET, SQS, MongoDB, and PostgresSQL for a consolidated log system.</li>
+                        <li>Restructured cloud native CI/CD pipeline using Git and Docker, introducing pre-deployment quality assurance jobs.</li>
+                        <li>Led a scrum team of 8 engineers in a Test-Driven Development (TDD) environment.</li>
+                    </ul>
+                </div>
+
+                <!-- Aptean Card -->
+                <div class="max-w-4xl mx-auto bg-gray-800 p-8 rounded-2xl shadow-2xl border border-gray-700">
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <h4 class="text-2xl font-bold text-white">Software Development Engineer</h4>
+                            <p class="text-xl text-teal-400">Aptean, Bengaluru, India</p>
+                        </div>
+                        <span class="text-gray-400 font-medium">Sept 2020 - June 2022</span>
+                    </div>
+                    <ul class="list-disc list-inside space-y-3 text-gray-300 marker:text-teal-500">
+                        <li>Provided comprehensive cloud-based solutions for a warehouse management system, impacting 2,000+ corporate clients.</li>
+                        <li>Utilized C#, .NET, and SQL to deliver timely fixes, reducing customer wait times by 50%.</li>
+                        <li>Addressed live production issues with proactive, high-quality solutions and fast fixes.</li>
+                        <li>Supported new developers with product onboarding and knowledge transfers.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-800 border-t border-gray-700">
+            <div class="max-w-7xl mx-auto">
+                <h3 class="text-3xl font-bold text-center text-teal-400 mb-10">Key Development Projects</h3>
+                <p class="text-center text-gray-300 text-lg mb-12 max-w-3xl mx-auto">
+                    Showcasing complex, integrated systems leveraging modern AI and microservice patterns.
+                </p>
+
+                <div class="grid md:grid-cols-2 gap-8">
+                    <!-- Project 1: Audio-Based Medical Bot -->
+                    <div class="bg-gray-900 p-8 rounded-2xl shadow-xl border border-gray-700 flex flex-col">
+                        <h4 class="text-2xl font-bold text-white mb-2">Full-Stack Audio-Based Medical Bot</h4>
+                        <p class="text-teal-400 mb-4">System Integration and Automation</p>
+                        <ul class="list-disc list-inside space-y-3 text-gray-300 marker:text-teal-500 flex-grow">
+                            <li>Engineered clinician bot using Generative AI (Gemini/OpenAI) and NLP for preliminary medical opinions.</li>
+                            <li>Automated patient history updates, eliminating manual effort to save clinician time by 32%.</li>
+                            <li>Architected with Angular, Python, FastAPI communication, and PostgresSQL for chat history.</li>
+                        </ul>
+                        <p class="mt-4 text-sm text-gray-500 font-mono">Tech Stack: Angular, Python, FASTAPI, PostgresSQL, Gemini API</p>
+                    </div>
+
+                    <!-- Project 2: Medical Assistant System -->
+                    <div class="bg-gray-900 p-8 rounded-2xl shadow-xl border border-gray-700 flex flex-col">
+                        <h4 class="text-2xl font-bold text-white mb-2">Medical Assistant System (RAG Focus)</h4>
+                        <p class="text-teal-400 mb-4">Retrieval-Augmented Generation (RAG)</p>
+                        <ul class="list-disc list-inside space-y-3 text-gray-300 marker:text-teal-500 flex-grow">
+                            <li>Implemented a RAG system to retrieve sensitive Patient History/Medical Records from cloud storage.</li>
+                            <li>Utilized LlamaIndex to manage data indexing and query routing to the LLM (Me-Llama).</li>
+                            <li>Developed a scalable microservice architecture to orchestrate secure, real-time data flow.</li>
+                        </ul>
+                        <p class="mt-4 text-sm text-gray-500 font-mono">Tech Stack: React, Python, FASTAPI, LlamaIndex, Azure OpenAI</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education and Contact Section (Footer) -->
+        <section id="contact" class="py-16 px-4 sm:px-6 lg:px-8 border-t border-gray-700">
+            <div class="max-w-7xl mx-auto text-center">
+                
+                <div class="mb-12">
+                    <h3 class="text-3xl font-bold text-teal-400 mb-4">Education</h3>
+                    <p class="text-xl font-medium text-white">Master of Science in Computer Engineering</p>
+                    <p class="text-lg text-gray-400">George Mason University, Fairfax, VA</p>
+                    <p class="text-md text-gray-500">Jan, 2025 - May, 2026 (Expected) | GPA: 4.0/4.0</p>
+                </div>
+
+                <h3 class="text-3xl font-bold text-teal-400 mb-6">Let's Connect</h3>
+                <div class="flex justify-center space-x-6">
+                    <!-- Email Icon -->
+                    <a href="mailto:moheethgali147@gmail.com" class="text-gray-400 hover:text-teal-400 transition duration-300 transform hover:scale-110" aria-label="Email">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8m-2 4v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"></path></svg>
+                    </a>
+                    <!-- LinkedIn Icon (Placeholder) -->
+                    <a href="https://www.linkedin.com/in/moheethgc" target="https://www.linkedin.com/in/moheethgc" class="text-gray-400 hover:text-teal-400 transition duration-300 transform hover:scale-110" aria-label="LinkedIn">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.047-1.852-3.047-1.853 0-2.136 1.445-2.136 2.947v5.669H9.288V9.89h3.419v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.733a2.443 2.443 0 01-2.442-2.444A2.443 2.443 0 015.337 2.844c1.352 0 2.445 1.092 2.445 2.444 0 1.352-1.093 2.445-2.445 2.445zm-.008 12.719H8.89V9.89H5.329v10.563z"></path></svg>
+                    </a>
+                    <!-- GitHub Icon (Placeholder) -->
+                    <a href="https://www.github.com/mohIT-gc/" target="https://www.github.com/mohIT-gc/" class="text-gray-400 hover:text-teal-400 transition duration-300 transform hover:scale-110" aria-label="GitHub">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.6.11.82-.26.82-.577 0-.285-.01-1.04-.015-2.04-3.344.726-4.043-1.612-4.043-1.612-.546-1.387-1.334-1.756-1.334-1.756-1.087-.745.084-.729.084-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.838 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.312.469-2.38 1.238-3.22-.124-.302-.536-1.52.117-3.174 0 0 1.008-.322 3.3-.404 1.15-.494 2.379-.74 3.633-.74 1.254 0 2.484.246 3.633.74 2.292.082 3.3 0 3.3 0 .653 1.654.241 2.873.118 3.174.77.84 1.238 1.908 1.238 3.22 0 4.61-2.802 5.62-5.474 5.92.43.37.823 1.101.823 2.222l-.01 3.284c0 .318.219.695.823.577C20.562 21.808 24 17.307 24 12 24 5.373 18.627 0 12 0z"></path></svg>
+                    </a>
+                </div>
+
+                <p class="mt-12 text-gray-500 text-sm">&copy; 2025 Moheeth Gali Chittibabu. Designed in Tailwind CSS.</p>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>
